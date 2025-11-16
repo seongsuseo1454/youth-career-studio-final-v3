@@ -1,12 +1,12 @@
 {
-  "name": "youth-career-studio-final-v6",
+  "name": "youth-career-studio-final-v4",
   "private": true,
   "scripts": {
     "dev": "next dev -p 3070",
     "build": "next build",
     "start": "next start -p 3070",
     "lint": "next lint",
-    "cloudflare-build": "npx @opennextjs/cloudflare",
+    "cloudflare-build": "npx @opennextjs/cloudflare build",  
     "cloudflare-dev": "npx @cloudflare/next-on-pages dev"
   },
   "dependencies": {
@@ -37,4 +37,4 @@
     "typescript-eslint": "^8.46.2",
     "wrangler": "^4.47.0"
   }
-}
+} 
